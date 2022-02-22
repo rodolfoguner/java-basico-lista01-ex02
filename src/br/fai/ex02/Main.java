@@ -19,8 +19,13 @@ public class Main {
 		
 		valorInt = (int) valor;
 		
-		System.out.print("\nValor com casas decimais " + valor);
-		System.out.print("| Valor inteiro: " + valorInt);
+		System.out.println("Valor com casas decimais " + valor + 
+				"| Valor inteiro: " + valorInt);
 		
+		int novoValor = 10;
+		double valorConvertidoImplicitamente = novoValor;
+		
+		System.out.println("Novo valor: " + novoValor + "| Convertido: " 
+				+ valorConvertidoImplicitamente);
 	}
 }
